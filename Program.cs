@@ -47,7 +47,18 @@ namespace Constants {
   class Constants {
     static void Main(string[] args) {
       const int myNum = 14;
-      myNum = 20; // Error
+      // myNum = 20; // Error
+    }
+  }
+}
+
+namespace DisplayVariables {
+  class DisplayVariables {
+    static void Main(string[] args) {
+      Console.WriteLine("===W3 Schools Display Variables===");
+      Console.WriteLine("String concatenation example:");
+      string name = "Isaac Spiegel";
+      Console.WriteLine("My name is " + name);
     }
   }
 }
