@@ -1,7 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// NOTE: found out that using identical startup class symbols breaks the 
+// `-p:StartupObject=<namespace>.<class>` method of running
 namespace HelloWorld
 {
-  class Program
+  class HelloWorld
   {
     static void Main(string[] args)
     {
@@ -12,7 +13,7 @@ namespace HelloWorld
 }
 
 namespace Variables {
-  class Program {
+  class Variables {
     static void Main(string[] args) {
       Console.WriteLine("===W3 Schools Variables===");
 
