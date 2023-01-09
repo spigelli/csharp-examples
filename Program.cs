@@ -157,3 +157,15 @@ namespace UserInput {
     }
   }
 }
+
+namespace Arrays {
+  class Arrays {
+    static void Main(string[] args) {
+      string[] cars = new string[3] {"Volvo", "Honda", "Toyota"};
+      for (int i = 0; i <= 2; i++) {
+        Console.WriteLine("Indexing cars[" + i + "]");
+        Console.WriteLine(cars[i]);
+      }
+    }
+  }
+}
