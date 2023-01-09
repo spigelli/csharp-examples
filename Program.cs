@@ -109,3 +109,33 @@ namespace DataTypes {
     }
   }
 }
+
+namespace TypeCasting {
+  class TypeCasting {
+    static void log(string input) {
+      Console.WriteLine(input);
+    }
+
+    static void Main(string[] args) {
+      log("===W3 Schools DataTypes===\n");
+      log("C# will automatically cast types that are smaller to larger types e.g.");
+      log("\t char => int => long => float => double\n");
+
+      log("You must explicitly cast larger types to smaller types e.g.");
+      log("\tdouble => float => long => int => char\n");
+
+      double myDouble = 8.8D;
+      float doubleToFloat = (float) myDouble;
+      long floatToLong = (long) doubleToFloat;
+      int longToInt = (int) floatToLong;
+      char intToChar = (char) longToInt;
+
+      log("Demonstration:");
+      log("Double: " + myDouble);
+      log("Float: " + doubleToFloat);
+      log("Long: " + floatToLong);
+      log("Int: " + longToInt);
+      log("Char: " + intToChar);
+    }
+  }
+}
