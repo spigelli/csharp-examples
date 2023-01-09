@@ -151,6 +151,9 @@ namespace UserInput {
       Console.WriteLine("Your username: " + username);
       Console.WriteLine("Your password: " + password + "\n");
 
+      Console.WriteLine("Age: ")
+      int age = Convert.ToInt32(Console.ReadLine())
+      Console.WriteLine("Your age is: " + age)
     }
   }
 }
