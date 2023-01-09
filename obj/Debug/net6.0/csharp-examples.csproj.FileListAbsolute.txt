@@ -1,0 +1,15 @@
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/csharp-examples
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/csharp-examples.deps.json
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/csharp-examples.runtimeconfig.json
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/csharp-examples.dll
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/ref/csharp-examples.dll
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/bin/Debug/net6.0/csharp-examples.pdb
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.csproj.AssemblyReference.cache
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.AssemblyInfoInputs.cache
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.AssemblyInfo.cs
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.csproj.CoreCompileInputs.cache
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.dll
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/ref/csharp-examples.dll
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.pdb
+/Users/isaacspiegel/Documents/Repositories/csharp-examples/csharp-examples/obj/Debug/net6.0/csharp-examples.genruntimeconfig.cache
