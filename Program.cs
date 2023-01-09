@@ -1,10 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-namespace HelloWorld
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
+﻿// NOTE: found out that using identical startup class symbols breaks the 
+// `-p:StartupObject=<namespace>.<class>` method of running
+namespace HelloWorld {
+  class HelloWorld {
+    static void Main(string[] args) {
       // Hello world example
       Console.WriteLine("Hello, World!");
     }
@@ -12,7 +10,7 @@ namespace HelloWorld
 }
 
 namespace Variables {
-  class Program {
+  class Variables {
     static void Main(string[] args) {
       Console.WriteLine("===W3 Schools Variables===");
 
@@ -41,6 +39,15 @@ namespace Variables {
       Console.WriteLine(myDoubleNum);
       Console.WriteLine(myLetter);
       Console.WriteLine(correct);
+    }
+  }
+}
+
+namespace Constants {
+  class Constants {
+    static void Main(string[] args) {
+      const int myNum = 14;
+      myNum = 20; // Error
     }
   }
 }
