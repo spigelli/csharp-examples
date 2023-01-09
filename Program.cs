@@ -1,5 +1,6 @@
 ﻿// NOTE: found out that using identical startup class symbols breaks the 
 // `-p:StartupObject=<namespace>.<class>` method of running
+
 namespace HelloWorld {
   class HelloWorld {
     static void Main(string[] args) {
@@ -69,6 +70,42 @@ namespace MultipleVariables {
       Console.WriteLine("===W3 Schools Declare Many Variables===");
       int x = 5, y = 6, z = 50;
       Console.WriteLine(x + y + z);
+    }
+  }
+}
+
+namespace DataTypes {
+  class DataTypes {
+    static void log(string input) {
+      Console.WriteLine(input);
+    }
+
+    static void Main(string[] args) {
+      log("===W3 Schools DataTypes===");
+      log("Integers:");
+      log("\tSize: 4 bytes");
+      log("\t~Range: -2,147,000,000 - 2,147,000,000\n");
+
+      log("Long:");
+      log("\tSize: 8 bytes");
+      log("\t~Range: -9,228,000,000,000,000 - 9,228,000,000,000,000\n");
+
+      log("Float:");
+      log("\tSize: 4 bytes");
+      log("\t~Range: 6-7 decimal places\n");
+
+      log("Double:");
+      log("\tSize: 8 bytes");
+      log("\t~Range: 15 decimal places\n");
+
+      log("Bool");
+      log("\tSize: 1 bit");
+
+      log("Char");
+      log("\tSize: 2 bytes");
+
+      log("String");
+      log("\tSize: 2 bytes per character");
     }
   }
 }
