@@ -1,11 +1,8 @@
 ﻿// NOTE: found out that using identical startup class symbols breaks the 
 // `-p:StartupObject=<namespace>.<class>` method of running
-namespace HelloWorld
-{
-  class HelloWorld
-  {
-    static void Main(string[] args)
-    {
+namespace HelloWorld {
+  class HelloWorld {
+    static void Main(string[] args) {
       // Hello world example
       Console.WriteLine("Hello, World!");
     }
@@ -42,6 +39,15 @@ namespace Variables {
       Console.WriteLine(myDoubleNum);
       Console.WriteLine(myLetter);
       Console.WriteLine(correct);
+    }
+  }
+}
+
+namespace Constants {
+  class Constants {
+    static void Main(string[] args) {
+      const int myNum = 14;
+      myNum = 20; // Error
     }
   }
 }
