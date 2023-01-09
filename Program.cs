@@ -46,7 +46,7 @@ namespace Variables {
 namespace Constants {
   class Constants {
     static void Main(string[] args) {
-      const int myNum = 14;
+      // const int myNum = 14;
       // myNum = 20; // Error
     }
   }
@@ -59,6 +59,16 @@ namespace DisplayVariables {
       Console.WriteLine("String concatenation example:");
       string name = "Isaac Spiegel";
       Console.WriteLine("My name is " + name);
+    }
+  }
+}
+
+namespace MultipleVariables {
+  class MultipleVariables {
+    static void Main(string[] args) {
+      Console.WriteLine("===W3 Schools Declare Many Variables===");
+      int x = 5, y = 6, z = 50;
+      Console.WriteLine(x + y + z);
     }
   }
 }
