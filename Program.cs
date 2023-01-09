@@ -139,3 +139,18 @@ namespace TypeCasting {
     }
   }
 }
+
+namespace UserInput {
+  class UserInput {
+    static void Main(string[] args) {
+      Console.WriteLine("Username: ");
+      string username = Console.ReadLine();
+      Console.WriteLine("Password: ");
+      string password = Console.ReadLine();
+      Console.WriteLine("!!!LEAK!!!");
+      Console.WriteLine("Your username: " + username);
+      Console.WriteLine("Your password: " + password + "\n");
+
+    }
+  }
+}
